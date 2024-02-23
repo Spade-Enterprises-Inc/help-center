@@ -1,0 +1,82 @@
+---
+title: General Information Fields - A list of profile fields,  definitions and formulas.
+# description: "Welcome to the home of your new documentation"
+---
+### **Contract Phase (Non-editable)**
+
+- **Active**: The deal is currently in effect (i.e., today's date is between the contract's start and end dates).
+- **Future**: The deal is set to start in the future (i.e., today's date is before the contract's start date).
+- **Expired**: The deal has ended (i.e., today's date is after the contract's end date).
+- **None**: The deal does not have a contract start date.
+
+### **Contract Status**
+
+- **Signed**: The deal is officially agreed upon and signed.
+- **Draft**: The deal is being drafted and not yet finalized.
+- **Unqualified**: The deal is not proceeding (useful when evaluating multiple options).
+- **Terminated**: The deal has been ended.
+
+### **Deal Type**
+
+- **Renewal**: For deals that are being renewed.
+- **Net New**: For entirely new deals or suppliers.
+
+### **Form Status (Non-editable)**
+
+- **Unavailable**: Not available yet or no set kickoff date.
+- **Available**: Renewal form becomes available for completion 7 days before the kickoff date.
+- **Due**: Renewal form required to be filled from the kickoff date up to 14 days after.
+- **Overdue**: Not submitted within 14 days after the kickoff date.
+- **Submitted**: The form has been completed and submitted.
+
+### **Deal Process Recommendation**
+
+- **Stakeholder Input**: Stakeholders provide their recommendation for a deal while completing the renewal form. This reflects their opinion on the action procurement should take regarding the deal. The recommendation entered on the renewal form will automatically update the deal profile's recommendation once the form is submitted.
+    
+    Upon reviewing the deal profile after the form submission, the procurement team can then set the "Deal Process" to either align with the "Deal Process Recommendation" or not. This distinction is designed to help track the difference between the stakeholder's initial submission and the active process procurement ends up pursuing.
+    
+- **Procurement Input**: During the renewal of a deal, the procurement team can directly set a recommendation for the next renewal period. When the subsequent renewal form is sent to stakeholders, this recommendation is pre-populated, allowing stakeholders to either retain or modify it.
+- **Recommendations**:
+    - **Renew**: Recommendation to continue with the current deal.
+    - **Replace**: Recommendation to find a new supplier.
+    - **Terminate**: Recommendation to end the deal.
+    - **Evaluate**: Recommendation to reassess the deal.
+
+### **Deal Process**
+
+This the active process that is currently happening on the deal. Each process is associated with unique Workflow steps.
+
+- **Renewing**: Actively working on renewing the deal.
+- **Replacing**: Searching for a new supplier to replace the current one.
+- **Terminating**: In the process of ending the deal.
+- **Evaluating**: Assessing the current deal and considering options.
+- **Purchasing (Net New only)**: For new suppliers, representing the initial purchase process.
+- **Renewal, Termination and Replacement Complete**: Automatically set when all workflow tasks for renewing, terminating or replacing are completed.
+
+### **Contract Status**
+
+- **Signed**: The deal is officially agreed upon and signed.
+- **Draft**: The deal is being drafted and not yet finalized.
+- **Unqualified**: The deal is not proceeding (useful when evaluating multiple vendors at once).
+- **Terminated**: The deal has been ended.
+
+### **Form Status (Non-editable)**
+
+- **Unavailable**: Not available due to todays date not being 7 days before the kickoff date. Renewal forms for deals that do not have a contract end date and subsequent kickoff date will be unavailable.
+- **Available**: Forms become available for completion 7 days before the kickoff date.
+- **Due**: Forms are due starting on the kickoff date up to 14 days after.
+- **Overdue**: Forms that are not submitted within 14 days after the kickoff date.
+- **Submitted**: Forms that have been completed and submitted.
+
+### **Deal Type**
+
+- **Renewal**: For deals that are being renewed. By default, linked deals that are created via ‘Create Renewal’ are set as Renewals.
+- **Net New**: For entirely new deals or suppliers. By default, linked deals that are created via ‘Evaluate Replacement’ are set as Net new.
+
+### **Deadline**
+
+- Calculated based on the contract end date, minus 14 days and the termination notice period. For deals that do not have a contract end date, the deadline is set to the contract start date.
+
+### **Kickoff Date**
+
+- Determined by the deal process recommendation, deadline and contract end date. The kickoff date is only present for deals that have a contract end date. When these deal’s process recommendation is ‘Replace’, the kickoff date is 240 days before the deadline. For all other recommendations the kickoff date is 90 days before the deadline.

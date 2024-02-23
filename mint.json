@@ -43,6 +43,10 @@
         "product-guide/linked-deals",
         "product-guide/stakeholder-form"
       ]
+    },
+    {
+      "group": "Glossary",
+      "pages": ["glossary/general-information"]
     }
   ],
   "footerSocials": {
