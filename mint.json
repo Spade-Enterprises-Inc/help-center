@@ -32,6 +32,12 @@
         "get-started/deal-management-onboarding-and-implementation",
         "get-started/spend-analytics-onboarding-and-implementation"
       ]
+    },
+    {
+      "group": "Glossary",
+      "pages": [
+        "glossary/general-information"
+      ]
     }
   ],
   "footerSocials": {
