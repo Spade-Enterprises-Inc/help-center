@@ -32,6 +32,17 @@
         "get-started/deal-management-onboarding-and-implementation",
         "get-started/spend-analytics-onboarding-and-implementation"
       ]
+    },
+    {
+      "group": "Product Guide",
+      "pages": [
+        "product-guide/deal-management-dashboard",
+        "product-guide/profile",
+        "product-guide/alternatives",
+        "product-guide/comments",
+        "product-guide/linked-deals",
+        "product-guide/stakeholder-form"
+      ]
     }
   ],
   "footerSocials": {
