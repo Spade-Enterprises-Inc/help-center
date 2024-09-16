@@ -37,7 +37,7 @@
       "group": "Product Guide",
       "pages": [
         {"group": "Spend Analytics",
-        "pages": ["spend1","spend2"]},
+        "pages": ["product-guide/spendanalyitcs","product-guide/research"]},
         "product-guide/research",
         "product-guide/deal-management-dashboard",
         "product-guide/profile",
