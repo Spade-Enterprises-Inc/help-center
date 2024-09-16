@@ -33,7 +33,7 @@
         "pages": ["product-guide/spend-analytics-dashboard","product-guide/spend-analytics-spreadsheet",
           "product-guide/spend-analytics-opportunities","product-guide/spend-analytics-insights"]},
         {"group": "Research",
-          "pages": ["product-guide/research-overview","product-guide/research-taxonomy","product-guide/research-ui"]},
+          "pages": ["product-guide/research-overview","product-guide/research-taxonomy","product-guide/research-ui","product-guide/research-category","product-guide/research-leader","product-guide/research-supplier"]},
         {"group": "Deal Management",
         "pages":["product-guide/deal-management-dashboard","product-guide/profile",
         "product-guide/alternatives",
