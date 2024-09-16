@@ -3,9 +3,9 @@ title: Spend Analytics
 ---
 The Spend Analytics module provides comprehensive insights into your organization's spending patterns through interactive dashboards, dynamic spreadsheets, and AI-driven opportunities analysis.
 
-### **Dashboard**
+# Dashboard
 
-The dashboard provides a comprehensive view of your spend analytics, divided into the following sections:
+The dashboard provides a comprehensive view of your spend data, brokend down into the following tabs:
 
 - **Overview**: Gain high-level insights into overall spend.
 - **Supplier**: Analyze spend by supplier.
@@ -19,16 +19,16 @@ You can interact with your Dashboard spend data through filters and click throug
 At the top of the dashboard, you’ll find various filters that allow you to dynamically update the charts below. You can filter by:
 
 - **Payment Date**: The specific date on which the payment for a transaction was made.
-- **Spend Amount**: The monetary value of a transaction, which can be filtered to show amounts greater than, less than, or equal to a specified figure.
-- **Spend Method**: The method used to make the payment, such as through an invoice or a credit card.
+- **Spend Amount**: The monetary value of a transaction, which can be filtered to show amounts greater than, less than, or equal to a specified amount.
+- **Spend Method**: The method used to make the payment, such as invoice or credit card.
 - **Categories**: Hierarchical groupings of spend data, divided into Level 1, Level 2, Level 3, and a more detailed AI-generated granular category.
 - **Supplier**: The name of the vendor or company providing the goods or services.
-- **Managed**: A label indicating whether the spend is classified as "managed," with a value of either true (managed) or false (not managed).
+- **Managed**: A label indicating whether the spend is classified as "managed". A value of True is "managed" and a value of False is "not managed".
 - **Domain**: The supplier's domain, typically used for identification or matching purposes.
 
 **Example Use Cases**:
 
-1. **Category Spend Analysis**: You are tasked with seeing how much your company spent on IT over the past three months. Select the Category tab on the Dashboard. Filter the dashboard by Payment Date = Last 3 Months and  Category Level 1 = Information Technology (IT). The charts update to display the trends across the Information Technology (IT) category for the specified time range. You can review the Information Technology (IT) category’s sub categories in the Category Level 2 and Level 3 Spend charts.
+1. **Category Spend Analysis**: You are tasked with seeing how much your company spent on IT over the past three months. Select the Category tab on the Dashboard. Filter the dashboard by Payment Date equals Last 3 Months and Category Level 1 equals Information Technology (IT). The charts update to display the trends across the Information Technology (IT) category for the specified time range. You can review the Information Technology (IT) category’s sub categories in the Category Level 2 and Level 3 Spend charts.
 2. **Supplier Spend Review**: You are preparing for a quarterly review and need to evaluate the top 10 suppliers by spend. Select the Supplier tab on the Dashboard. Filter the dashboard by Payment Date equals Past Quarter. Review the Spend by Supplier chart to quickly see the highest spend suppliers over the past quarter.
     
     Similarly you could also remove all filters, scroll down to the Supplier Spend Over Time chart and hover over the quarter in question to see the top spend by supplier.
@@ -49,3 +49,98 @@ All bar charts and line charts the dashboard are interactive:
 2. **Category Manager Supplier-Specific Investigation**: You are a category manger for Sales and Marketing Software. You want to see if there are any opportunities to reduce spend. Click on the Supplier tab in the Dashboard. Filter by Sales and Marketing Category Level 1 to see the top supplier spend. Choose a supplier to investigate and add the name to the Supplier filter. 
     
     Navigate to the Categories tab and note that your filters on supplier name and category level 1 will persist. From here you can use the Category Level 2 and Level 3 bar charts to see if the supplier is contributing significantly more spend to certain subcategories over others. Scrolling down to the table view you can review individual transactions to find potential renegotiation opportunities.
+
+# Spreadsheet
+
+This dynamic spreadsheet displays all your spend data in a tabular format. By default, the data is grouped by Level 1, Level 2, Level 3, Granular Category, and Supplier. Easily sort, filter, group, and aggregate your spend data with the following features:
+
+### Sorting
+
+Spend data can be sorted by date, number, or text:
+
+- **Single click**: Sorts in ascending order.
+- **Second click**: Sorts in descending order.
+- **Third click**: Removes sorting.
+- **Multi-column sorting**: Hold `Shift` and click on additional column headers to sort multiple columns simultaneously.
+
+### Filtering
+
+The spreadsheet supports flexible filtering options across dates, text, and numbers:
+
+**Dates**
+
+1. **Access the filter**: Click the filter icon in the date column.
+2. **Filter criteria**: Choose from options like "before," "after," or specific ranges.
+3. **Combine filters**: Apply multiple filters with "AND" or "OR" options for greater precision.
+
+**Text**
+
+1. **Access the filter**: Click the three lines filter icon in the top right corner of any text column.
+2. **Filter criteria**: You can filter by options such as “Contains”, “Does Not Contain”, “Equals”, “Does Not Equal”, “Begins With”, “Ends With”, “Blank” or “Not Blank”.
+3. **Combine filters**: Apply multiple filters with "AND" or "OR" options for greater precision.
+
+**Numbers**
+
+1. **Access the filter**: Click the filter icon in a number column.
+2. **Select criteria**: Filter based on ranges or specific values, such as "greater than" or "between."
+3. **Combine filters**: Apply multiple filters with "AND" or "OR" options for greater precision.
+
+### **Grouping and Aggregation**
+
+Grouping allows you to organize your spend by different columns such as categories, department or supplier.
+
+- To group your deals, drag and drop any column header into the grouping area above the table or expand the column selector on the right hand side of the table and drag any column to the Row Group area.
+
+When you group data, our dashboard provides the option to aggregate information within each group. This means you can see sums, averages or counts applied to numerical data, providing a quick overview of the metrics that matter most to your procurement processes. 
+
+- To aggregate your grouped data, expand the column selector on the right hand side of the table and drag any numeric column to the Values area. Make sure to select the type of aggregation you would like to see, such as “sum”, “average” etc.
+
+### **Pinning Columns**
+
+To ensure you always have access to the most critical data, our dashboard allows you to pin columns. Pinned columns remain visible on the screen as you scroll horizontally, making it easier to reference key information while reviewing other data.
+
+- To pin a column, click on the column header you wish to pin and drag it to the left or right of the page. When you see the pin icon, drop the column and it will be successfully pinned.
+
+### **Column Selection**
+
+Customize your view by selecting which columns to display on the dashboard. This feature allows you to focus on the data that is most relevant to your current needs, ensuring a streamlined and efficient workflow.
+
+- Expand the vertical column selector on the right side of the table and select or deselect columns from your view. You can also drag and drop items in this list to change their order.
+
+## **View Management**
+
+### **Default Views**
+
+By default, Airflip provides you with three default views in your Spreadsheet.
+
+1. **Default**: Groups your spend transactions into Category Level 1 > Category Level 2 > Category Level 3 > Granular Category > Supplier.
+2. **All Transactions:** Shows all spend transactions on the Airflip tool sorted by Total Amount. No groups or filter are applied.
+3. **Suppliers:** Groups all spend transactions by supplier name.
+
+### **Create and Save Views**
+
+A view represents a set of saved table settings tailored to specific criteria. You can create and save new views by:
+
+1. Select your desired columns, sorts, filters, and aggregations. 
+2. Select the Eye icon above the table.
+3. Click ‘Create new view’ to create a separate view or ‘Update current view’ to change the settings of your current view. 
+
+### **Duplicate Views**
+
+Duplicate existing views and use them as templates for new views. This feature is a time-saver and promotes consistency in data analysis approaches across various projects and teams. 
+
+1. Start with a view you would like to duplicate and click the Eye icon. 
+2. Click ‘Create new view’. This will copy all of the current view settings into a new view. 
+
+### **Delete and Rename Views**
+
+Manage your views effectively by deleting outdated views and renaming current ones to better reflect the ongoing changes in business strategies and user needs. 
+
+1. Click the Eye icon, followed by ‘Edit Views’.
+2. Click the Pencil icon to edit the view name, or the Trash icon to delete the view. Please note that default views cannot be renamed or deleted.
+
+### **Data Persistence and Reversion**
+
+Airflip ensures that any unsaved changes you make to your view settings are not lost when you reload the page, navigate back to your table using the back button or log out and back in; your most recent settings will persist. 
+
+To revert any unsaved changes and return to the last saved state of a view, simply click the circle arrow icon on the right hand side above the table. This action will restore your view to its previously saved configuration.
