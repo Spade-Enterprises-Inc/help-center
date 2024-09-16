@@ -36,7 +36,8 @@
     {
       "group": "Product Guide",
       "pages": [
-        "product-guide/spend-analyitcs",
+        {"group": "Spend Analytics",
+        "pages": ["spend1","spend2"]},
         "product-guide/research",
         "product-guide/deal-management-dashboard",
         "product-guide/profile",
@@ -46,6 +47,7 @@
         "product-guide/stakeholder-form"
       ]
     },
+
     {
       "group": "Glossary",
       "pages": ["glossary/general-information"]
