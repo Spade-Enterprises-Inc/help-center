@@ -37,7 +37,8 @@
       "group": "Product Guide",
       "pages": [
         {"group": "Spend Analytics",
-        "pages": ["product-guide/spendanalyitcs"]},
+        "pages": ["product-guide/spend-analyitcs-dashboard","product-guide/spend-analyitcs-spreadsheet",
+          "product-guide/spend-analyitcs-opportunities","product-guide/spend-analyitcs-insights"]},
         "product-guide/research",
         {"group": "Deal Management",
         "pages":["product-guide/deal-management-dashboard","product-guide/profile",
