@@ -30,8 +30,8 @@
       "group": "Product Guide",
       "pages": [
         {"group": "Spend Analytics",
-        "pages": ["product-guide/spend-analyitcs-dashboard","product-guide/spend-analyitcs-spreadsheet",
-          "product-guide/spend-analyitcs-opportunities","product-guide/spend-analyitcs-insights"]},
+        "pages": ["product-guide/spend-analytics-dashboard","product-guide/spend-analytics-spreadsheet",
+          "product-guide/spend-analytics-opportunities","product-guide/spend-analytics-insights"]},
         {"group": "Research",
           "pages": ["product-guide/research-overview","product-guide/research-taxonomy","product-guide/research-ui"]},
         {"group": "Deal Management",
