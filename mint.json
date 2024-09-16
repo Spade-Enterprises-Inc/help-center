@@ -27,13 +27,6 @@
   },
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": [
-        "get-started/deal-management-onboarding-and-implementation",
-        "get-started/spend-analytics-onboarding-and-implementation"
-      ]
-    },
-    {
       "group": "Product Guide",
       "pages": [
         {"group": "Spend Analytics",
@@ -47,11 +40,6 @@
         "product-guide/linked-deals",
         "product-guide/stakeholder-form"]}
       ]
-    },
-
-    {
-      "group": "Glossary",
-      "pages": ["glossary/general-information"]
     }
   ],
   "footerSocials": {
