@@ -1,6 +1,7 @@
-<!--version="1.0" standalone="no"--><!DOCTYPE html PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="16" height="16" preserveAspectRatio="xMidYMid meet" zoomAndPan="magnify" version="1.0" contentScriptType="text/ecmascript" contentStyleType="text/css">
-
-<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
-    <image x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAq0lEQVR4nGKQc1j/nxLMMEwNUPfY9H/G8lv/7z/5AsSfwWyQGFEGyDuu/7//5Iv/6ODAqZdgOYIGBOcexNAMA0E5B/EbUNFz7n/f/Gs4cf+Ca2A1OA24dPP9/zNX3uIMsNOX34DV4DXg37///+PKj2Fojis7CpYjaAAIfP/x53/bjCv/7WN2/XeI2f2/feaV/9++/wHL4TXgyJlX/9++/4EXg9QMgZRIVwMAAAAA///7W2PjAAAABklEQVQDAJerXkwYin2TAAAAAElFTkSuQmCC" preserveAspectRatio="none" width="12" height="12" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+<path d="M0 0 C15.84 0 31.68 0 48 0 C48 15.84 48 31.68 48 48 C32.16 48 16.32 48 0 48 C0 32.16 0 16.32 0 0 Z " fill="#1E40AF" transform="translate(0,0)"/>
+<path d="M0 0 C4.36069065 1.40165057 6.34407642 2.81512893 9.5 6.125 C9.5 7.445 9.5 8.765 9.5 10.125 C11.15 10.125 12.8 10.125 14.5 10.125 C14.5 14.745 14.5 19.365 14.5 24.125 C4.6 24.125 -5.3 24.125 -15.5 24.125 C-15.5 19.505 -15.5 14.885 -15.5 10.125 C-13.85 10.125 -12.2 10.125 -10.5 10.125 C-10.45875 9.403125 -10.4175 8.68125 -10.375 7.9375 C-8.7538752 2.72674172 -5.4049366 0.19303345 0 0 Z " fill="#3E5BBA" transform="translate(24.5,11.875)"/>
+<path d="M0 0 C1.32 0 2.64 0 4 0 C4.4125 0.928125 4.825 1.85625 5.25 2.8125 C7.37780393 6.72384613 7.37780393 6.72384613 11 9 C15.44351005 9 17.42739943 8.47301786 20.875 5.625 C23.15361651 3.12435622 23.15361651 3.12435622 24 0 C25.32 0 26.64 0 28 0 C28 4.29 28 8.58 28 13 C18.76 13 9.52 13 0 13 C0 8.71 0 4.42 0 0 Z " fill="#F0F2F9" transform="translate(10,23)"/>
+<path d="M0 0 C3.72876128 1.15252621 5.80025607 2.18550662 8.4375 5.0625 C8.4375 6.7125 8.4375 8.3625 8.4375 10.0625 C2.1675 10.0625 -4.1025 10.0625 -10.5625 10.0625 C-9.5625 5.0625 -9.5625 5.0625 -6.9375 2.1875 C-3.5625 0.0625 -3.5625 0.0625 0 0 Z " fill="#F7F8FC" transform="translate(24.5625,11.9375)"/>
 </svg>
